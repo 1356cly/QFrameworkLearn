@@ -20,13 +20,18 @@ namespace CounterApp
         {
             mModel = this.GetModel<CounterModel>(); 
             BtnAdd.onClick.AddListener(() => 
-            {   mModel.Count++;//交互逻辑
-                UpdateView();//表现逻辑
+            {   
+                this.SendCommand<IncreaseCountCommand>();//交互逻辑
             });
             BtnSub.onClick.AddListener(() => 
-            {   mModel.Count--;//交互逻辑
-                UpdateView();//表现逻辑
+            {   this.SendCommand<DecreaseCountCommand>();//交互逻辑
             });
+            
+            //表现逻辑
+            this.RegisterEvent<CountChangedEvent>(e =>
+            {
+                UpdateView();
+            }).UnRegisterWhenGameObjectDestroyed(gameObject);
             UpdateView();
         }
 
