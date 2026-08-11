@@ -1,4 +1,5 @@
 using QFramework;
+using UnityEngine;
 
 namespace CounterApp
 {
@@ -9,6 +10,13 @@ namespace CounterApp
            this.RegisterModel<ICounterModel>(new CounterModel());
            this.RegisterUtility<IStorage>(new Storage());
            this.RegisterSystem<IAchievementSystem>(new AchievementSystem());
+        }
+
+        protected override void ExecuteCommand(ICommand command)
+        {
+            Debug.Log("Before Command Execute:"+ command.GetType().Name);
+            base.ExecuteCommand(command);
+            Debug.Log("After Command Execute:"+ command.GetType().Name);
         }
     }
 }
