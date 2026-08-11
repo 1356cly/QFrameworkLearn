@@ -14,11 +14,11 @@ namespace CounterApp
         
         //Model
 
-        private CounterModel mModel;
+        private ICounterModel mModel;
 
         void Start()
         {
-            mModel = this.GetModel<CounterModel>(); 
+            mModel = this.GetModel<ICounterModel>(); 
             BtnAdd.onClick.AddListener(() => 
             {   
                 this.SendCommand<IncreaseCountCommand>();//交互逻辑
@@ -28,11 +28,11 @@ namespace CounterApp
             });
             
             //表现逻辑
-            this.RegisterEvent<CountChangedEvent>(e =>
+            mModel.Count.RegisterWithInitValue(count =>
             {
                 UpdateView();
             }).UnRegisterWhenGameObjectDestroyed(gameObject);
-            UpdateView();
+            
         }
 
         void UpdateView()

@@ -1,13 +1,27 @@
 using QFramework;
+using UnityEngine;
 
 namespace CounterApp
 {
-    public class CounterModel:AbstractModel
+    public interface ICounterModel : IModel
     {
-        public int Count = 0;
+        BindableProperty<int> Count { get; }
+    }
+    public class CounterModel:AbstractModel, ICounterModel
+    {
+        
+        public BindableProperty<int> Count{ get; } = new BindableProperty<int>(0);
+      
+        private IStorage mStorage;
         protected override void OnInit()
         {
-            Count = 0;
+            mStorage = this.GetUtility<IStorage>();
+            Count.Value = mStorage.LoadInt(nameof(Count),0);
+
+            Count.Register(count =>
+            {
+                mStorage.SaveInt(nameof(Count), count);
+            });
         }
     }
 }

@@ -1,4 +1,5 @@
 using QFramework;
+using UnityEngine;
 
 namespace CounterApp
 {
@@ -6,8 +7,9 @@ namespace CounterApp
     {
         protected override void OnExecute()
         {
-            this.GetModel<CounterModel>().Count++;
-            this.SendEvent<CountChangedEvent>();
+            var counterModel = this.GetModel<ICounterModel>();
+            counterModel.Count.Value++;
+            
         }
     }
 }

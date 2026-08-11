@@ -6,7 +6,9 @@ namespace CounterApp
     {
         protected override void Init()
         {
-           this.RegisterModel(new CounterModel());
+           this.RegisterModel<ICounterModel>(new CounterModel());
+           this.RegisterUtility<IStorage>(new Storage());
+           this.RegisterSystem<IAchievementSystem>(new AchievementSystem());
         }
     }
 }

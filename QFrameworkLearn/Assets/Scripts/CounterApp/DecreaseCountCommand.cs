@@ -6,8 +6,7 @@ namespace CounterApp
     {
         protected override void OnExecute()
         {
-            this.GetModel<CounterModel>().Count--;
-            this.SendEvent<CountChangedEvent>();
+            this.GetModel<ICounterModel>().Count.Value--;
         }
     }
 }
