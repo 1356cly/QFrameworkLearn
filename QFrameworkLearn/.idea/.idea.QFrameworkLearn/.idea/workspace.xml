@@ -11,8 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc8e84ab-6841-4024-9586-fcafddbc48b5" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CounterApp/CounterAPP1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CounterApp/CounterAPP1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/QueryExampleApp.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.QFrameworkLearn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.QFrameworkLearn/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CounterApp/Editor/EditorCounterApp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CounterApp/Editor/EditorCounterApp.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +26,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/31c98fd5b57049059bcc8967ad78980a961400/2f/f2a5ec81/MenuItem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8cdc7e7e8a17404287a8b220eb9eec72177a00/c2/a2198a94/WaitForEndOfFrame.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CounterApp/AchievementSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CounterApp/CounterAPP1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CounterApp/CounterModel.cs" root0="FORCE_HIGHLIGHTING" />
@@ -31,6 +34,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CounterApp/Editor/EditorCounterApp.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CounterApp/IncreaseCountCommand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CounterApp/Storage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Player.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="McpProjectServerCommands">
     <commands />
@@ -38,61 +42,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000061116781438" />
-      <entry key="S2" value="1.0498816972393872" />
-      <entry key="S5" value="1.3471770423724245" />
-      <entry key="S10" value="2.1040362150813743" />
-      <entry key="S30" value="5.961370994883472" />
-      <entry key="S60" value="10.1309290220565" />
-      <entry key="M2" value="16.657158872007393" />
-      <entry key="M5" value="29.45356484182301" />
-      <entry key="M10" value="43.484625924958955" />
-      <entry key="M15" value="54.796120214551244" />
-      <entry key="M30" value="78.17504513518251" />
-      <entry key="H1" value="111.27470525982964" />
-      <entry key="H2" value="169.75768196628812" />
-      <entry key="H4" value="256.3450245232683" />
-      <entry key="D1" value="434.84021220144575" />
-      <entry key="W1" value="485.6781974069508" />
+      <entry key="MS100" value="1.0972468020413554E-85" />
+      <entry key="MS500" value="1.0187344032736561E-17" />
+      <entry key="S2" value="6.062953314901412E-5" />
+      <entry key="S5" value="0.049818715556750034" />
+      <entry key="S10" value="0.7516815674132129" />
+      <entry key="S30" value="5.188373974023126" />
+      <entry key="S60" value="8.594701314308006" />
+      <entry key="M2" value="11.626111974178288" />
+      <entry key="M5" value="17.587306263015254" />
+      <entry key="M10" value="28.091536771771022" />
+      <entry key="M15" value="40.0670199016964" />
+      <entry key="M30" value="75.71762605718655" />
+      <entry key="H1" value="129.13413273296362" />
+      <entry key="H2" value="205.04177713574467" />
+      <entry key="H4" value="306.6792258843858" />
+      <entry key="D1" value="516.6525965862893" />
+      <entry key="W1" value="577.7352130091668" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="2.8286462898315485E-83" />
-      <entry key="MS500" value="3.528018570979795E-17" />
-      <entry key="S2" value="1.2026709080986842E-4" />
-      <entry key="S5" value="0.04138379891252923" />
-      <entry key="S10" value="0.3115870461339903" />
-      <entry key="S30" value="1.6177632916810847" />
-      <entry key="S60" value="3.5493932966980157" />
-      <entry key="M2" value="6.5622661359454595" />
-      <entry key="M5" value="12.612966236406605" />
-      <entry key="M10" value="18.929747696334253" />
-      <entry key="M15" value="23.15598702453033" />
-      <entry key="M30" value="30.85362953808696" />
-      <entry key="H1" value="41.20335102909002" />
-      <entry key="H2" value="59.56922398702924" />
-      <entry key="H4" value="86.22135165448944" />
-      <entry key="D1" value="138.81384467683375" />
-      <entry key="W1" value="153.35161126748628" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000000040981818" />
+      <entry key="S5" value="1.00050067311459" />
+      <entry key="S10" value="1.0318645181477846" />
+      <entry key="S30" value="1.6285715056789085" />
+      <entry key="S60" value="2.4400194839897766" />
+      <entry key="M2" value="3.5789646882519826" />
+      <entry key="M5" value="5.635032477647646" />
+      <entry key="M10" value="8.500855893767952" />
+      <entry key="M15" value="12.283677704472293" />
+      <entry key="M30" value="24.429015175894015" />
+      <entry key="H1" value="42.569538444097354" />
+      <entry key="H2" value="67.54681481130888" />
+      <entry key="H4" value="99.72880297696366" />
+      <entry key="D1" value="162.93402915626268" />
+      <entry key="W1" value="180.73900145254296" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.06079093421326784" />
-      <entry key="MS500" value="0.5711743007949229" />
-      <entry key="S2" value="0.9024468337599376" />
-      <entry key="S5" value="1.2741169615151704" />
-      <entry key="S10" value="2.2904122682568078" />
-      <entry key="S30" value="7.447043674572757" />
-      <entry key="S60" value="13.540212396012187" />
-      <entry key="M2" value="23.082051496750324" />
-      <entry key="M5" value="41.954870315197645" />
-      <entry key="M10" value="62.32775340049769" />
-      <entry key="M15" value="77.8790780986575" />
-      <entry key="M30" value="108.9768040837747" />
-      <entry key="H1" value="152.4414890566287" />
-      <entry key="H2" value="229.29942862104443" />
-      <entry key="H4" value="342.54594189893146" />
-      <entry key="D1" value="573.6484056943242" />
-      <entry key="W1" value="639.0289114936991" />
+      <entry key="MS100" value="0.0011613350732448443" />
+      <entry key="MS500" value="0.2588162309603444" />
+      <entry key="S2" value="0.7133098682974909" />
+      <entry key="S5" value="0.921074409565291" />
+      <entry key="S10" value="1.6936202145958095" />
+      <entry key="S30" value="6.700712655010908" />
+      <entry key="S60" value="10.926369363843211" />
+      <entry key="M2" value="15.12102706092901" />
+      <entry key="M5" value="23.16684703997527" />
+      <entry key="M10" value="36.543814803270344" />
+      <entry key="M15" value="52.298892035065926" />
+      <entry key="M30" value="100.09090999512455" />
+      <entry key="H1" value="171.65478720711187" />
+      <entry key="H2" value="272.5506641206467" />
+      <entry key="H4" value="406.38069587302675" />
+      <entry key="D1" value="679.5793375308984" />
+      <entry key="W1" value="758.4730626151244" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -110,28 +114,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "cidr.known.project.marker": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.com.jetbrains.rider.ideaInterop.settings.colors.RiderDefaultLanguageColorSettingsPage"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.com.jetbrains.rider.ideaInterop.settings.colors.RiderDefaultLanguageColorSettingsPage&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="附加到 Unity 编辑器.附加到 Unity 编辑器">
     <configuration name="启动 Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="D:\Unity\Editor\2022.3.62f3c1\Editor\Unity.exe" />
