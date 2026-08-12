@@ -109,7 +109,7 @@ UIKit.OpenPanelAsync<UIHomePanel>().ToAction().Start(this);
 
         public static T OpenPanel<T>(UILevel canvasLevel = UILevel.Common, IUIData uiData = null,
             string assetBundleName = null,
-            string prefabName = null) where T : UIPanel
+            string prefabName = null) where T : class
         {
             var panelSearchKeys = PanelSearchKeys.Allocate();
 

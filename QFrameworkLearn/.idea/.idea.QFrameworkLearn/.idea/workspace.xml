@@ -12,9 +12,12 @@
   <component name="ChangeListManager">
     <list default="true" id="fc8e84ab-6841-4024-9586-fcafddbc48b5" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.QFrameworkLearn/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.QFrameworkLearn/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CounterApp/Editor/EditorCounterApp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CounterApp/Editor/EditorCounterApp.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/QFramework/Toolkits/UIKit/Scripts/UIKit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/QFramework/Toolkits/UIKit/Scripts/UIKit.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/QFrameworkData/CodeGenKit/Pipeline.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/QFrameworkData/CodeGenKit/Pipeline.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/FlappyBird.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/FlappyBird.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Pipe.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Pipe.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +37,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CounterApp/Editor/EditorCounterApp.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CounterApp/IncreaseCountCommand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CounterApp/Storage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/PipeGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/Player.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="McpProjectServerCommands">
@@ -42,61 +46,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0972468020413554E-85" />
-      <entry key="MS500" value="1.0187344032736561E-17" />
-      <entry key="S2" value="6.062953314901412E-5" />
-      <entry key="S5" value="0.049818715556750034" />
-      <entry key="S10" value="0.7516815674132129" />
-      <entry key="S30" value="5.188373974023126" />
-      <entry key="S60" value="8.594701314308006" />
-      <entry key="M2" value="11.626111974178288" />
-      <entry key="M5" value="17.587306263015254" />
-      <entry key="M10" value="28.091536771771022" />
-      <entry key="M15" value="40.0670199016964" />
-      <entry key="M30" value="75.71762605718655" />
-      <entry key="H1" value="129.13413273296362" />
-      <entry key="H2" value="205.04177713574467" />
-      <entry key="H4" value="306.6792258843858" />
-      <entry key="D1" value="516.6525965862893" />
-      <entry key="W1" value="577.7352130091668" />
-    </decayedCancelled>
-    <decayedSelected>
       <entry key="MS100" value="1.0" />
       <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000000040981818" />
-      <entry key="S5" value="1.00050067311459" />
-      <entry key="S10" value="1.0318645181477846" />
-      <entry key="S30" value="1.6285715056789085" />
-      <entry key="S60" value="2.4400194839897766" />
-      <entry key="M2" value="3.5789646882519826" />
-      <entry key="M5" value="5.635032477647646" />
-      <entry key="M10" value="8.500855893767952" />
-      <entry key="M15" value="12.283677704472293" />
-      <entry key="M30" value="24.429015175894015" />
-      <entry key="H1" value="42.569538444097354" />
-      <entry key="H2" value="67.54681481130888" />
-      <entry key="H4" value="99.72880297696366" />
-      <entry key="D1" value="162.93402915626268" />
-      <entry key="W1" value="180.73900145254296" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.000000026823802" />
+      <entry key="S60" value="1.0002317431592473" />
+      <entry key="M2" value="1.0239426383977095" />
+      <entry key="M5" value="2.0598705404784776" />
+      <entry key="M10" value="7.44071807443447" />
+      <entry key="M15" value="14.814384187332823" />
+      <entry key="M30" value="38.87653668292818" />
+      <entry key="H1" value="77.06853934923441" />
+      <entry key="H2" value="143.93359838301717" />
+      <entry key="H4" value="270.27813126227437" />
+      <entry key="D1" value="658.9305713272773" />
+      <entry key="W1" value="802.1672265475539" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="6.204484812080149E-118" />
+      <entry key="S5" value="1.800103791743958E-47" />
+      <entry key="S10" value="6.205825866012293E-24" />
+      <entry key="S30" value="4.857818646444158E-8" />
+      <entry key="S60" value="5.553204983018723E-4" />
+      <entry key="M2" value="0.06250456070729908" />
+      <entry key="M5" value="1.3185722652877896" />
+      <entry key="M10" value="4.911956836642254" />
+      <entry key="M15" value="8.707174354608593" />
+      <entry key="M30" value="18.53239421235385" />
+      <entry key="H1" value="31.499296519556033" />
+      <entry key="H2" value="51.593203752897544" />
+      <entry key="H4" value="88.78312367590654" />
+      <entry key="D1" value="203.10979129841675" />
+      <entry key="W1" value="244.90314561183396" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.0011613350732448443" />
-      <entry key="MS500" value="0.2588162309603444" />
-      <entry key="S2" value="0.7133098682974909" />
-      <entry key="S5" value="0.921074409565291" />
-      <entry key="S10" value="1.6936202145958095" />
-      <entry key="S30" value="6.700712655010908" />
-      <entry key="S60" value="10.926369363843211" />
-      <entry key="M2" value="15.12102706092901" />
-      <entry key="M5" value="23.16684703997527" />
-      <entry key="M10" value="36.543814803270344" />
-      <entry key="M15" value="52.298892035065926" />
-      <entry key="M30" value="100.09090999512455" />
-      <entry key="H1" value="171.65478720711187" />
-      <entry key="H2" value="272.5506641206467" />
-      <entry key="H4" value="406.38069587302675" />
-      <entry key="D1" value="679.5793375308984" />
-      <entry key="W1" value="758.4730626151244" />
+      <entry key="MS100" value="0.0031728609232665457" />
+      <entry key="MS500" value="0.31643914849257" />
+      <entry key="S2" value="0.7500194946429091" />
+      <entry key="S5" value="0.8913104958969712" />
+      <entry key="S10" value="0.9440924191502499" />
+      <entry key="S30" value="0.9810057116992216" />
+      <entry key="S60" value="0.9912336162034276" />
+      <entry key="M2" value="1.0810573805727157" />
+      <entry key="M5" value="3.369844394998234" />
+      <entry key="M10" value="12.335351241159552" />
+      <entry key="M15" value="23.49850255741899" />
+      <entry key="M30" value="57.378793127744956" />
+      <entry key="H1" value="108.53845993048513" />
+      <entry key="H2" value="195.50055754315306" />
+      <entry key="H4" value="359.0377375419233" />
+      <entry key="D1" value="862.0312849713695" />
+      <entry key="W1" value="1047.0688086633766" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">

@@ -18,9 +18,12 @@ MonoBehaviour:
     GameObject: {fileID: 0}
     From: 0
     NameToFullName: []
-    BindInfos: []
+    BindInfos:
+    - TypeName: UnityEngine.UI.Button
+      PathToRoot: BtnRestart
+      MemberName: BtnRestart
     ScriptsFolder: Assets/Scripts/Game
-    ClassName: Pipe
+    ClassName: UIGameOver
     Namespace: QFramework.FlappyBird
     MainCode: 
     DesignerCode: 
